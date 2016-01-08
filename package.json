@@ -1,0 +1,36 @@
+{
+  "name": "maquette",
+  "version": "1.0.0-dev",
+  "description": "A thin wrapper around mqtt.js that provides a cleaner, simpler API with promises support",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nfantone/maquette.git"
+  },
+  "keywords": [
+    "mqtt",
+    "messaging",
+    "mosca",
+    "mosquitto",
+    "publish",
+    "subscribe"
+  ],
+  "author": "Nicolás Fantone <nfantone@gmail.com> (https://github.com/nfantone)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfantone/maquette/issues"
+  },
+  "homepage": "https://github.com/nfantone/maquette#readme",
+  "engines": {
+    "node": ">=0.8.6"
+  },
+  "dependencies": {
+    "lodash.defaults": "^3.1.2",
+    "lodash.isfunction": "^3.0.6",
+    "mqtt": "^1.6.3",
+    "q": "^1.4.1"
+  }
+}
