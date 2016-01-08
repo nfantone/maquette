@@ -13,7 +13,8 @@ npm install --save maquette
 ```javascript
 var maq = require('maquette');
 
-var client = new maq.Client('mqtt://test.mosquitto.org', { clientId: 'my_client_id', topic: 'maquette/test' });
+var client = new maq.Client('mqtt://test.mosquitto.org',
+  { clientId: 'my_client_id', topic: 'maquette/test' });
 
 client.register({
     onMessage: function(topic, message) {

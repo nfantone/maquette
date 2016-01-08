@@ -2,7 +2,7 @@
   "name": "maquette",
   "version": "1.0.0-dev",
   "description": "A thin wrapper around mqtt.js that provides a cleaner, simpler API with promises support",
-  "main": "index.js",
+  "main": "maquette.js",
   "scripts": {
     "test": "gulp test"
   },
