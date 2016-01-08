@@ -32,6 +32,11 @@ process.once('SIGINT', function() {
   });
 });
 ```
+## API
+
+```javascript
+// TODO
+```
 
 ## Features
 
