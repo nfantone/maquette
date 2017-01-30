@@ -1,5 +1,7 @@
 # ![maquette](https://www.dropbox.com/s/yq92g1oam4l5o0o/maquette-logo.png?raw=1)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nfantone/maquette.svg)](https://greenkeeper.io/)
+
 A thin wrapper around [mqtt.js](https://github.com/mqttjs/MQTT.js) that provides a cleaner, simpler API with promises support.
 
 ## Installation
